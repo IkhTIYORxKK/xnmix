@@ -1,0 +1,69 @@
+/* ------------------------------------
+    10. SKILLS SECTION
+------------------------------------ */
+/* 10.1. SKILLS CONTENT */
+.skills--content .progress-bars {
+    margin-top: 21px;
+}
+
+.skills--content .progress-bars .progress {
+    position: relative;
+    height: auto;
+    margin-bottom: 0;
+    background-color: transparent;
+    border-radius: 0;
+    box-shadow: none;
+    overflow: visible;
+    z-index: 0;
+}
+
+.skills--content .progress-bars .progress + .progress {
+    margin-top: 13px;
+}
+
+.skills--content .progress-bars .progress:before {
+    content: " ";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 6px;
+    background-color: #fafafa;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.skills--content .progress-bars .progress p {
+    margin-bottom: 8px;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 600;
+}
+
+.skills--content .progress-bars .progress .progress-bar {
+    float: none;
+    position: relative;
+    min-width: 40px;
+    height: 6px;
+    background-color: #e65f78;
+    box-shadow: none;
+    font-size: 14px;
+    line-height: 22px;
+    -webkit-transition: width 1s ease-in-out .3s;
+    transition: width 1s ease-in-out .3s;
+}
+
+.skills--content .progress-bars .progress .progress-bar span {
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    width: 40px;
+    margin-top: -17px;
+    padding: 5px 0;
+    color: #e74c3c;
+    background-color: #fff;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+    font-weight: 500;
+    text-align: center;
+}
+
